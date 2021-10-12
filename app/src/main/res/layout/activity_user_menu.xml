@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_app2"
+    tools:context=".UserMenu">
+
+    <TextView
+        android:id="@+id/txtMaletin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="674dp"
+        android:text="Maletín de Prevención"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgMaletin"
+        android:layout_width="89dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="571dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_briefcase_turquoise" />
+
+    <Button
+        android:id="@+id/btnProducts"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="472dp"
+        android:background="@drawable/bordes_redondos3"
+        android:text="Productos Adquiridos"
+        android:textColor="#000000"
+        app:backgroundTint="#B3DDE4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="406dp"
+        android:background="@drawable/bordes_redondos3"
+        android:text="Editar datos de registro"
+        android:textColor="#000000"
+        app:backgroundTint="#B3DDE4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="342dp"
+        android:background="@drawable/bordes_redondos3"
+        android:text="Eliminar Cuenta"
+        android:textColor="#000000"
+        app:backgroundTint="#B3DDE4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="273dp"
+        android:background="@drawable/bordes_redondos3"
+        android:text="Cerrar Sesión"
+        android:textColor="#000000"
+        app:backgroundTint="#6B8D93"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

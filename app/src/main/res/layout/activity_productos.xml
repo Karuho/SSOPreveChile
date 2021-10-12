@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_app2"
+    tools:context=".Productos">
+
+    <Button
+        android:id="@+id/btnDeleteProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="227dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Eliminar"
+        app:backgroundTint="#3AA1A2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="227dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Volver"
+        app:backgroundTint="#3AA1A2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="674dp"
+        android:text="Productos Adquiridos"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/cbDelete"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="555dp"
+        android:text="Eliminar"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbDelete4"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="388dp"
+        android:text="Eliminar"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbDelete3"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="445dp"
+        android:text="Eliminar"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbDelete2"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="501dp"
+        android:text="Eliminar"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbDelete5"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="331dp"
+        android:text="Eliminar"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="603dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_products_turquoise" />
+
+    <TextView
+        android:id="@+id/txtProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="569dp"
+        android:text="Estudio de Carga de Fuego"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtProduct2"
+        android:layout_width="236dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="496dp"
+        android:text="Ley 16744 - Normas Accidentes del Trabajo y Enfermedades Profesionales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtProduct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="457dp"
+        android:text="Protocolo PREXOR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtProduct4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="403dp"
+        android:text="Matriz IPER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtProduct5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="347dp"
+        android:text="MIPER Aspectos Legales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

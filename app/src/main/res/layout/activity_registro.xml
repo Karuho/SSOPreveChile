@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_app2"
+    tools:context=".Registro">
+
+  <EditText
+      android:id="@+id/txtEmailRegister"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="80dp"
+      android:layout_marginTop="403dp"
+      android:layout_marginEnd="81dp"
+      android:layout_marginBottom="278dp"
+      android:background="@drawable/bordes_texto2"
+      android:ems="10"
+      android:hint="Email"
+      android:inputType="textEmailAddress"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/txtName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="80dp"
+      android:layout_marginTop="160dp"
+      android:layout_marginEnd="81dp"
+      android:layout_marginBottom="521dp"
+      android:background="@drawable/bordes_texto2"
+      android:ems="10"
+      android:hint="Nombre"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/txtLastName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="80dp"
+      android:layout_marginTop="219dp"
+      android:layout_marginEnd="81dp"
+      android:layout_marginBottom="462dp"
+      android:background="@drawable/bordes_texto2"
+      android:ems="10"
+      android:hint="Apellido"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/txtPassRegister"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="80dp"
+      android:layout_marginTop="340dp"
+      android:layout_marginEnd="81dp"
+      android:layout_marginBottom="341dp"
+      android:background="@drawable/bordes_texto2"
+      android:ems="10"
+      android:hint="Contraseña"
+      android:inputType="textPassword"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/btnConfirmRegister"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="147dp"
+      android:layout_marginTop="488dp"
+      android:layout_marginEnd="147dp"
+      android:layout_marginBottom="195dp"
+      android:background="@drawable/bordes_redondos"
+      android:text="Registrar"
+      app:backgroundTint="#3AA1A2"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/txtDescription"
+      android:layout_width="311dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginTop="102dp"
+      android:layout_marginEnd="50dp"
+      android:layout_marginBottom="579dp"
+      android:text="Favor llena los campos para completar tu registro."
+      android:textAlignment="center"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="91dp"
+      android:layout_height="89dp"
+      android:layout_marginStart="160dp"
+      android:layout_marginTop="13dp"
+      android:layout_marginEnd="160dp"
+      android:layout_marginBottom="629dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/ic_person_turquoise" />
+
+  <EditText
+      android:id="@+id/txtAge"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="80dp"
+      android:layout_marginTop="281dp"
+      android:layout_marginEnd="81dp"
+      android:layout_marginBottom="400dp"
+      android:background="@drawable/bordes_texto2"
+      android:ems="10"
+      android:hint="Edad"
+      android:inputType="number"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
